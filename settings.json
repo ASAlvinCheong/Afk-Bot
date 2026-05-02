@@ -8,7 +8,7 @@
   "server": {
     "ip": "GoofyNigerian.aternos.me",
     "port": 23449,
-    "version": "",
+    "version": "26.1.2",
     "try-creative": false
   },
   "position": {
@@ -60,7 +60,7 @@
   "modules": {
     "avoidMobs": true,
     "combat": true,
-    "beds": false,
+    "beds": true,
     "chat": true,
     "console-commands": true
   },
@@ -69,8 +69,8 @@
     "auto-eat": true
   },
   "beds": {
-    "pick-up-day": false,
-    "place-night": false
+    "pick-up-day": true,
+    "place-night": true
   },
   "discord": {
     "enabled": false,
@@ -78,7 +78,7 @@
     "events": {
       "connect": true,
       "disconnect": false,
-      "chat": false
+      "chat": true
     }
   },
   "chat": {
